@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#E1E9C9;
+    background-image: url(cashC.jpeg);
+    background-size: contain;
+}
+.container{
+    background-color: #a9e5e2 ;
+    padding: 2rem;
+    border-radius: 1rem;
+    height:fit-content;
+    width: 40vh;
+}
+.amount p{
+    margin:0 0 8px 7px;
+}
+form{
+    margin:2rem 0 1rem 0;
+}
+form select,button,input{
+    border: none;
+    width: 100%;
+    outline: none;
+    border-radius: 0.75rem;
+    background-color: transparent;
+}
+form input{
+    border:1px solid lightgray;
+    font-size:1rem;
+    height:3rem;
+    padding-left: 0.5rem;
+    background-color:#a5cbc9 ;
+}
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.select-container img{
+    max-width: 2.5rem;
+}
+.select-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6rem;
+    padding: 0.2rem;
+    border:1px solid lightgray;
+    border-radius: 0.75vh;
+    background-color: #a5cbc9 ;
+}
+.select-container select{
+    font-size: 1rem;
+}
+.msg{
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+form button{
+    font-size: 1.2rem;
+    background-color: rgb(45, 159, 184);
+    padding: 10px 0 10px 0;
+    color: rgb(216, 232, 228);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
