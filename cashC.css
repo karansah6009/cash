@@ -76,6 +76,17 @@ form button{
     color: rgb(216, 232, 228);
     cursor: pointer;
 }
+.msg{
+    margin: 2rem 0 2rem 0;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    font-family:sans-serif;
+
+    background-color: #c3edeb;
+    border-radius: 30px;
+    padding: 10px;
+}
 
 
 

@@ -72,3 +72,7 @@ console.log("toCurr:", toCurr);
   msg.innerText = `Converted amount: ${convertedAmount}`; 
 });
 
+
+
+
+
