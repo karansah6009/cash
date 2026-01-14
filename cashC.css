@@ -11,6 +11,12 @@ body {
     background-image: url(cashC.jpeg);
     background-size: contain;
 }
+.container h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family:sans-serif;
+    color: #1b1b1b;
+}
 .container{
     background-color: #a9e5e2 ;
     padding: 2rem;
@@ -30,6 +36,7 @@ form select,button,input{
     outline: none;
     border-radius: 0.75rem;
     background-color: transparent;
+    opacity: 0.7;
 }
 form input{
     border:1px solid lightgray;
@@ -37,6 +44,12 @@ form input{
     height:3rem;
     padding-left: 0.5rem;
     background-color:#a5cbc9 ;
+}
+form input:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    transform: scale(0.99);
+    opacity: 1;
+    background-color: #a7caca;
 }
 .dropdown {
     display: flex;
@@ -61,6 +74,12 @@ form input{
     border-radius: 0.75vh;
     background-color: #a5cbc9 ;
 }
+.select-container:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    transform: scale(0.99);
+    opacity: 1;
+    background-color: #a7caca;
+}
 .select-container select{
     font-size: 1rem;
 }
@@ -75,6 +94,10 @@ form button{
     padding: 10px 0 10px 0;
     color: rgb(216, 232, 228);
     cursor: pointer;
+}
+form button:active{
+    background-color: rgb(9, 140, 147);
+    transform: scale(0.98);
 }
 .msg{
     margin: 2rem 0 2rem 0;
