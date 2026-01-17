@@ -23,6 +23,7 @@ body {
     border-radius: 1rem;
     height:fit-content;
     width: 40vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
 }
 .amount p{
     margin:0 0 8px 7px;
@@ -105,12 +106,12 @@ form button:active{
     display: flex;
     justify-content: center;
     font-family:sans-serif;
-
     background-color: #c3edeb;
     border-radius: 30px;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    color: #1b1b1b;
 }
-
 
 
 
